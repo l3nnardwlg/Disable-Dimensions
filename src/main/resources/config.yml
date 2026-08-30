@@ -1,0 +1,14 @@
+dimensions:
+  nether:
+    enabled: false
+    message: "<red>The Nether is currently disabled.</red>"
+  end:
+    enabled: false
+    message: "<red>The End is currently disabled.</red>"
+
+bypass-permission: "disabledimensions.bypass"
+
+behavior:
+  block-player-teleports: true
+  block-portals: true
+  notify-player: true

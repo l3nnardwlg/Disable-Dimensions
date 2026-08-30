@@ -1,0 +1,19 @@
+name: DisableDimensions
+version: 1.0.0
+main: com.agfstudios.disabledimensions.DisableDimensionsPlugin
+api-version: '1.21'
+author: AGF Studios
+description: Configurable Nether and End access control for Paper servers.
+commands:
+  disabledimensions:
+    description: Manage Disable-Dimensions.
+    usage: /disabledimensions reload
+    aliases: [ddim]
+    permission: disabledimensions.admin
+permissions:
+  disabledimensions.admin:
+    description: Allows reloading the plugin configuration.
+    default: op
+  disabledimensions.bypass:
+    description: Allows entering otherwise disabled dimensions.
+    default: op
